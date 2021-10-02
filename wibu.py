@@ -6,6 +6,22 @@ import threading
 import os
 
 os.system("clear")
+password ="XDEMPTERX"
+
+for i in range(3):
+	pwd = input("[•] PASSWORD: ")
+	j=3
+	if(pwd==password):
+		time.sleep(5)
+		print("[•] WAIT 5 SEC!!! ")
+		break
+	else:
+		time.sleep(5)
+		print("[×] Wrong Password!!! ")
+		continue
+time.sleep(5)
+print("{√} Done Use Password Renzy")
+time.sleep(5)
 print("══》 Tools V4 By : XDempteRX 《══")
 print("██╗░░██╗###############██")
 print("╚██╗██╔╝|Autor : XDempteRX   |")
