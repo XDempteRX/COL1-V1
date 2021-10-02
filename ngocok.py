@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 #Code By XDempteRX
-import random
+import time
+import random 
 import socket
 import threading
 import os
